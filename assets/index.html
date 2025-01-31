@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="hero">
+        <div class="sidebar">
+            <div class="upper">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <span>home</span>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>search</span>
+                </div>
+            </div>
+            <div class="down">
+                <div class="top">
+                    <span class="icon"><img src="assets/library_icon.png"></span>
+                    <span class="lib">Your Library</span>
+                    <span class="plus"><i class="fa-solid fa-plus"></i></span>
+                    <span class="arr"><i class="fa-solid fa-arrow-right"></i></span>
+                    
+                </div>
+                <div id="c1" class="card w-100 mt-4 ">
+                    <div class="card-body">
+                      <h5 class="card-title">Create your first playlist</h5>
+                      <p class="card-text">it's eassy,we'll help you</p>
+                      <a href="#" id="btn1" class="btn btn-light">Create playlist</a>
+                    </div>
+                  </div>
+                  <div id="c2" class="card w-100 mt-4 ">
+                    <div class="card-body">
+                      <h5 class="card-title">Let's find some podcasts to follow</h5>
+                      <p class="card-text">We'll keep you update on new episodes</p>
+                      <a href="#" id="btn2" class="btn btn-light">Browse podcasts</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav">
+                <div class="dir">
+                    <span class="img1"><img src="assets/backward_icon.png" alt=""></span>
+                    <span class="img2"><img src="assets/forward_icon.png" alt=""></span>
+                </div>
+                <div class="but">
+                    <button id="upgrade" class="btn btn-light">Upgrade</button>
+                    <button id="install" class="btn"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i id="profile" class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="part1">
+                <h4>Recently Played</h4>
+                <div class="cardd">
+                    <img src="assets/card1img.jpeg" alt="">
+                    <h5>Top 50 - Global </h5>
+                    <p>Your daily updates of the<br>most played tracks</p>
+                </div>
+                  </div>
+            <div class="part2">
+                <h4>Trending now near you</h4>
+                <div class="cardd">
+                    <img src="assets/card2img.jpeg" alt="">
+                    <h5>Indie India </h5>
+                    <p>Best of the indian indie<br>scene</p>
+                </div>
+                <div class="cardd">
+                    <img src="assets/card3img.jpeg" alt="">
+                    <h5>Indie India </h5>
+                    <p>Best of the indian indie<br>scene</p>
+                </div>
+                <div class="cardd">
+                    <img src="assets/card4img.jpeg" alt="">
+                    <h5>Indie India </h5>
+                    <p>Your daily updates of the<br>most played tracks</p>
+                </div>
+                <div class="cardd">
+                    <img src="assets/card2img.jpeg" alt="">
+                    <h5>Indie India</h5>
+                    <p>Your daily updates of the<br>most played tracks</p>
+                </div>
+                <div class="cardd">
+                    <img src="assets/card3img.jpeg" alt="">
+                    <h5>Indie India</h5>
+                    <p>Your daily updates of the<br>most played tracks</p>
+                </div>
+                  </div>
+                  <div class="part3">
+                    <h4>Featured Charts</h4>
+                    <div class="cardd">
+                        <img src="assets/card5img.jpeg" alt="">
+                        <h5>Indie India </h5>
+                        <p>Your daily updates of the<br>most played tracks</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="assets/card6img.jpeg" alt="">
+                        <h5>Indie India </h5>
+                        <p>Your daily updates of the<br>most played tracks</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="assets/card1img.jpeg" alt="">
+                        <h5>Indie India </h5>
+                        <p>Your daily updates of the<br>most played tracks</p>
+                    </div>
+                      </div>
+                    <div class="line">
+                        <hr>
+                    </div>
+            </div>
+            <div class="butt">
+                <div class="album">
+                    <span><img src="assets/album_picture.jpeg" style="height: 3rem;"></span>
+                    <span><b>Daylight</b><br>David Kushner</span>
+                    <span><img src="assets/album_icon1.png" alt=""></span>
+                    <span><img src="assets/album_icon2.png" style="height: 2rem;"></span>
+                </div>
+                <div class="control">
+                    <div class="d1">
+                        <span><img src="assets/player_icon1.png" style="height: 1rem;"></span>
+                        <span><img src="assets/player_icon2.png" style="height: 1rem;" ></span>
+                        <span><img src="assets/play_musicbar.png" style="height: 2rem;" ></span>
+                        <span><img src="assets/player_icon4.png" style="height: 1rem;" ></span>
+                        <span><img src="assets/player_icon5.png" style="height: 1rem;" ></span>
+                    </div>
+                    <div class="d2">
+                        <span>00:00</span>
+                        <input type="range" min="0" max="100" id="bar">
+                        <span>3:33</span>
+                    </div>
+                </div>
+                <div class="icons">
+                    <span><img src="assets/controls_icon1.png" style="height: 3rem;" alt=""></span>
+                    <span><img src="assets/controld_icon2.png" style="height: 3rem;" alt=""></span>
+                    <span><img src="assets/controls_icon3.png" alt=""></span>
+                    <span><img src="assets/controls_icon4.png" style="height: 1.5rem;"></span>
+                    <span style="display: flex;align-items: center;"><i style="margin-left: 2px;" class="fa-solid fa-volume-high"></i><input style="margin-left: 5px;" type="range" id="sound"></span>
+                    <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span>
+                </div>
+            </div>
+        </div>
+  
+</body>
+</html>
